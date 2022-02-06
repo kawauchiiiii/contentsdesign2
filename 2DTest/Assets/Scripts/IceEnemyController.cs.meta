@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 10d2bad13ac6e3a4e8b8e548e23e98d0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rb: {instanceID: 0}
+  - animator: {instanceID: 0}
+  - AnimationImage: {instanceID: 0}
+  - kachikochi: {fileID: 8185445147578820306, guid: 3effa68fbb4417046a6d8cf82942b0a8, type: 3}
+  - kachisound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 1d7422f00c1bc7c4fa5a20d4f1a6d29c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - inputField: {instanceID: 0}
+  - gorogoro: {fileID: 686178447208784274, guid: a3032fb03aa5f9444b7effb20ee689d2, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1b1dbe78b40a1ac4db0a12941225144d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rb: {instanceID: 0}
+  - animator: {instanceID: 0}
+  - AnimationImage: {instanceID: 0}
+  - pachipachi: {fileID: 6701919403024285892, guid: e53c52bc5686fb14eb46c4d48571911a, type: 3}
+  - pachisound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

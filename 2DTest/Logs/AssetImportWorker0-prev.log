@@ -1,0 +1,2310 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Core' Language: 'ja' Physical Memory: 7969 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/take1/2DTest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54904
+Successfully changed project path to: C:/Users/take1/2DTest
+C:/Users/take1/2DTest
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 188.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/take1/2DTest/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x8a56)
+    Vendor:   
+    VRAM:     3984 MB
+    Driver:   26.20.100.7926
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008570 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 197.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.376 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2376ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1824ms)
+			LoadAssemblies (240ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (663ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (659ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (198ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (115ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.037823 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 217.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.421 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4425ms)
+		BeginReloadAssembly (602ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (3510ms)
+			LoadAssemblies (571ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1044ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (197ms)
+			SetupLoadedEditorAssemblies (1456ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (218ms)
+				BeforeProcessingInitializeOnLoad (276ms)
+				ProcessInitializeOnLoadAttributes (865ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.2 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2639.
+Total: 7.530000 ms (FindLiveObjects: 0.214600 ms CreateObjectMapping: 0.110500 ms MarkObjects: 7.091100 ms  DeleteObjects: 0.110700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(572c0081e067a6f49aed6dd63b169d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(572c0081e067a6f49aed6dd63b169d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c20e48ee7dc84b7877c77aa2bce3ae') in 0.094715 seconds 
+  Import took 0.105453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000999 seconds.
+  path: Assets/Scripts/FraEnemyController.cs
+  artifactKey: Guid(1b1dbe78b40a1ac4db0a12941225144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FraEnemyController.cs using Guid(1b1dbe78b40a1ac4db0a12941225144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa35f269e70020c6cc4ecb3f1ae8c0c') in 0.015269 seconds 
+  Import took 0.023343 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.035945 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.118 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4119ms)
+		BeginReloadAssembly (457ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (3416ms)
+			LoadAssemblies (461ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1081ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (159ms)
+			SetupLoadedEditorAssemblies (1394ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (368ms)
+				ProcessInitializeOnLoadAttributes (919ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (37ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2641.
+Total: 10.795600 ms (FindLiveObjects: 0.280500 ms CreateObjectMapping: 0.102200 ms MarkObjects: 10.313500 ms  DeleteObjects: 0.095100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34.779544 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(572c0081e067a6f49aed6dd63b169d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(572c0081e067a6f49aed6dd63b169d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b09f6a2ab2c26c5b8683216ddfd3e2') in 0.031021 seconds 
+  Import took 0.045837 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.054842 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.744 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3745ms)
+		BeginReloadAssembly (450ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (105ms)
+		EndReloadAssembly (3017ms)
+			LoadAssemblies (509ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1032ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (175ms)
+			SetupLoadedEditorAssemblies (1038ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (265ms)
+				ProcessInitializeOnLoadAttributes (674ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2643.
+Total: 5.849800 ms (FindLiveObjects: 0.432300 ms CreateObjectMapping: 0.298400 ms MarkObjects: 5.052400 ms  DeleteObjects: 0.063600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36.401755 seconds.
+  path: Assets/Prefabs/パチパチ.prefab
+  artifactKey: Guid(e53c52bc5686fb14eb46c4d48571911a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/パチパチ.prefab using Guid(e53c52bc5686fb14eb46c4d48571911a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625f604980071ca81634a9c2343fe792') in 0.343048 seconds 
+  Import took 0.352250 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.038583 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.982 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3987ms)
+		BeginReloadAssembly (483ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (209ms)
+		EndReloadAssembly (3271ms)
+			LoadAssemblies (447ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1270ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (195ms)
+			SetupLoadedEditorAssemblies (967ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (255ms)
+				ProcessInitializeOnLoadAttributes (656ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2652.
+Total: 11.905600 ms (FindLiveObjects: 0.416500 ms CreateObjectMapping: 0.198300 ms MarkObjects: 11.200800 ms  DeleteObjects: 0.087800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 61.328993 seconds.
+  path: Assets/Scripts/PakiController.cs
+  artifactKey: Guid(360ea296e5bde894e96e8e2881662081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PakiController.cs using Guid(360ea296e5bde894e96e8e2881662081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a993476ecdc2aa3e349eb157c82f4730') in 0.021975 seconds 
+  Import took 0.035616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000918 seconds.
+  path: Assets/Scripts/PachiController.cs
+  artifactKey: Guid(320f7e4c25828c747b49368c9b3218ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PachiController.cs using Guid(320f7e4c25828c747b49368c9b3218ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff02a834d399bc918db1bfc46ffd79e') in 0.011581 seconds 
+  Import took 0.021107 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032006 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.722 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4746ms)
+		BeginReloadAssembly (1116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (94ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (398ms)
+		EndReloadAssembly (3331ms)
+			LoadAssemblies (485ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1197ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (158ms)
+			SetupLoadedEditorAssemblies (1127ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (335ms)
+				ProcessInitializeOnLoadAttributes (705ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 3.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2654.
+Total: 8.744000 ms (FindLiveObjects: 0.399500 ms CreateObjectMapping: 0.228300 ms MarkObjects: 8.001400 ms  DeleteObjects: 0.110300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 56.851591 seconds.
+  path: Assets/Scripts/PachiController.cs
+  artifactKey: Guid(320f7e4c25828c747b49368c9b3218ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PachiController.cs using Guid(320f7e4c25828c747b49368c9b3218ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7595af481f1efaa579b7b5d3a24f050') in 0.022927 seconds 
+  Import took 0.032871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.738237 seconds.
+  path: Assets/Prefabs/pakipaki.prefab
+  artifactKey: Guid(654c2a90e37774c47b38cde8c1572cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/pakipaki.prefab using Guid(654c2a90e37774c47b38cde8c1572cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7f388f4ee9ac2ecaa3f3a258e969eb') in 0.271404 seconds 
+  Import took 0.288116 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.055785 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.957 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4972ms)
+		BeginReloadAssembly (968ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (60ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (348ms)
+		EndReloadAssembly (3616ms)
+			LoadAssemblies (810ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (1246ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (207ms)
+			SetupLoadedEditorAssemblies (1145ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (243ms)
+				ProcessInitializeOnLoadAttributes (797ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2657.
+Total: 18.004500 ms (FindLiveObjects: 0.681600 ms CreateObjectMapping: 0.338800 ms MarkObjects: 16.918900 ms  DeleteObjects: 0.059800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.055669 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.635 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5655ms)
+		BeginReloadAssembly (1064ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (93ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (2ms)
+			CreateAndSetChildDomain (520ms)
+		EndReloadAssembly (4267ms)
+			LoadAssemblies (766ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1445ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (209ms)
+			SetupLoadedEditorAssemblies (1456ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (401ms)
+				ProcessInitializeOnLoadAttributes (921ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2659.
+Total: 20.548200 ms (FindLiveObjects: 0.305100 ms CreateObjectMapping: 0.227100 ms MarkObjects: 19.654400 ms  DeleteObjects: 0.356700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029210 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.634 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5660ms)
+		BeginReloadAssembly (1208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (81ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (597ms)
+		EndReloadAssembly (4158ms)
+			LoadAssemblies (480ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1696ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (178ms)
+			SetupLoadedEditorAssemblies (1364ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (313ms)
+				ProcessInitializeOnLoadAttributes (951ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2661.
+Total: 12.894400 ms (FindLiveObjects: 0.253400 ms CreateObjectMapping: 0.110500 ms MarkObjects: 12.373800 ms  DeleteObjects: 0.153200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.054636 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.756 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4769ms)
+		BeginReloadAssembly (881ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (77ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (393ms)
+		EndReloadAssembly (3562ms)
+			LoadAssemblies (571ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1293ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (173ms)
+			SetupLoadedEditorAssemblies (1226ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (312ms)
+				ProcessInitializeOnLoadAttributes (834ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2663.
+Total: 7.712200 ms (FindLiveObjects: 0.380400 ms CreateObjectMapping: 0.196000 ms MarkObjects: 7.083500 ms  DeleteObjects: 0.046500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034834 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.654 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6672ms)
+		BeginReloadAssembly (1464ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (65ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (957ms)
+		EndReloadAssembly (4848ms)
+			LoadAssemblies (678ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2181ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (305ms)
+			SetupLoadedEditorAssemblies (1399ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (369ms)
+				ProcessInitializeOnLoadAttributes (938ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2665.
+Total: 14.096900 ms (FindLiveObjects: 0.735200 ms CreateObjectMapping: 0.300400 ms MarkObjects: 12.952900 ms  DeleteObjects: 0.104100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034420 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.416 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4417ms)
+		BeginReloadAssembly (926ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (530ms)
+		EndReloadAssembly (3198ms)
+			LoadAssemblies (507ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1126ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (161ms)
+			SetupLoadedEditorAssemblies (1104ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (264ms)
+				ProcessInitializeOnLoadAttributes (753ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2667.
+Total: 11.033900 ms (FindLiveObjects: 0.443300 ms CreateObjectMapping: 0.232000 ms MarkObjects: 10.118100 ms  DeleteObjects: 0.237400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.045049 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.261 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4267ms)
+		BeginReloadAssembly (585ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (204ms)
+		EndReloadAssembly (3425ms)
+			LoadAssemblies (539ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1243ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (154ms)
+			SetupLoadedEditorAssemblies (1114ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (270ms)
+				ProcessInitializeOnLoadAttributes (755ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2669.
+Total: 8.357700 ms (FindLiveObjects: 0.199300 ms CreateObjectMapping: 0.089300 ms MarkObjects: 7.851200 ms  DeleteObjects: 0.214100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.203475 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.438 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5469ms)
+		BeginReloadAssembly (1244ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (128ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (624ms)
+		EndReloadAssembly (3773ms)
+			LoadAssemblies (655ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1379ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (187ms)
+			SetupLoadedEditorAssemblies (1228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (334ms)
+				ProcessInitializeOnLoadAttributes (821ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2671.
+Total: 10.717500 ms (FindLiveObjects: 0.783900 ms CreateObjectMapping: 0.222000 ms MarkObjects: 9.501700 ms  DeleteObjects: 0.206100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.090444 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.422 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6446ms)
+		BeginReloadAssembly (912ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (75ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (368ms)
+		EndReloadAssembly (5173ms)
+			LoadAssemblies (997ms)
+			RebuildTransferFunctionScriptingTraits (4ms)
+			SetupTypeCache (1194ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (162ms)
+			SetupLoadedEditorAssemblies (1278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (25ms)
+				BeforeProcessingInitializeOnLoad (337ms)
+				ProcessInitializeOnLoadAttributes (829ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (59ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2673.
+Total: 13.393400 ms (FindLiveObjects: 1.449000 ms CreateObjectMapping: 0.206300 ms MarkObjects: 11.664600 ms  DeleteObjects: 0.063600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.044973 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.721 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7743ms)
+		BeginReloadAssembly (1601ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (85ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (11ms)
+			CreateAndSetChildDomain (684ms)
+		EndReloadAssembly (5531ms)
+			LoadAssemblies (2001ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1986ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (176ms)
+			SetupLoadedEditorAssemblies (1352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (336ms)
+				ProcessInitializeOnLoadAttributes (914ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (41ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.8 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2675.
+Total: 10.129500 ms (FindLiveObjects: 0.867400 ms CreateObjectMapping: 0.462200 ms MarkObjects: 8.623200 ms  DeleteObjects: 0.173700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032809 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.372 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7426ms)
+		BeginReloadAssembly (1147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (371ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (294ms)
+		EndReloadAssembly (5896ms)
+			LoadAssemblies (726ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (2822ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (217ms)
+			SetupLoadedEditorAssemblies (1682ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (440ms)
+				ProcessInitializeOnLoadAttributes (1107ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (77ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.8 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2677.
+Total: 16.751000 ms (FindLiveObjects: 0.614700 ms CreateObjectMapping: 0.307100 ms MarkObjects: 15.466300 ms  DeleteObjects: 0.356800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.044532 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.184 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4201ms)
+		BeginReloadAssembly (656ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (54ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (289ms)
+		EndReloadAssembly (3280ms)
+			LoadAssemblies (525ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1243ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (168ms)
+			SetupLoadedEditorAssemblies (1015ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (254ms)
+				ProcessInitializeOnLoadAttributes (679ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.8 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2679.
+Total: 9.448800 ms (FindLiveObjects: 0.582600 ms CreateObjectMapping: 0.146400 ms MarkObjects: 8.596300 ms  DeleteObjects: 0.120800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.054924 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.180 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5867ms)
+		BeginReloadAssembly (1539ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (78ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (432ms)
+		EndReloadAssembly (4013ms)
+			LoadAssemblies (505ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1473ms)
+			ReleaseScriptCaches (12ms)
+			RebuildScriptCaches (191ms)
+			SetupLoadedEditorAssemblies (1320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (366ms)
+				ProcessInitializeOnLoadAttributes (855ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.8 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2681.
+Total: 10.038400 ms (FindLiveObjects: 0.495000 ms CreateObjectMapping: 0.207500 ms MarkObjects: 9.199200 ms  DeleteObjects: 0.133300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.046370 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.070 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6085ms)
+		BeginReloadAssembly (821ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (67ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (382ms)
+		EndReloadAssembly (4933ms)
+			LoadAssemblies (575ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (2435ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (197ms)
+			SetupLoadedEditorAssemblies (1375ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (368ms)
+				ProcessInitializeOnLoadAttributes (900ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.8 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2683.
+Total: 15.370000 ms (FindLiveObjects: 0.739700 ms CreateObjectMapping: 0.222200 ms MarkObjects: 13.996000 ms  DeleteObjects: 0.407400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.051156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.410 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4412ms)
+		BeginReloadAssembly (541ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (159ms)
+		EndReloadAssembly (3665ms)
+			LoadAssemblies (485ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1391ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (189ms)
+			SetupLoadedEditorAssemblies (1243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (340ms)
+				ProcessInitializeOnLoadAttributes (823ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.8 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2685.
+Total: 11.478300 ms (FindLiveObjects: 0.423600 ms CreateObjectMapping: 0.229300 ms MarkObjects: 10.729500 ms  DeleteObjects: 0.091600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.466 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5488ms)
+		BeginReloadAssembly (957ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (101ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (492ms)
+		EndReloadAssembly (4244ms)
+			LoadAssemblies (804ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1540ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (188ms)
+			SetupLoadedEditorAssemblies (1285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (340ms)
+				ProcessInitializeOnLoadAttributes (847ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (4ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.8 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2687.
+Total: 11.347100 ms (FindLiveObjects: 0.563000 ms CreateObjectMapping: 0.151900 ms MarkObjects: 10.344000 ms  DeleteObjects: 0.285600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.057247 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.088 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5123ms)
+		BeginReloadAssembly (989ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (94ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (503ms)
+		EndReloadAssembly (3803ms)
+			LoadAssemblies (598ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1305ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (188ms)
+			SetupLoadedEditorAssemblies (1290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (355ms)
+				ProcessInitializeOnLoadAttributes (840ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.8 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2689.
+Total: 12.369300 ms (FindLiveObjects: 0.639800 ms CreateObjectMapping: 0.157700 ms MarkObjects: 11.473000 ms  DeleteObjects: 0.095600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034778 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.224 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6346ms)
+		BeginReloadAssembly (1192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (88ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (551ms)
+		EndReloadAssembly (4735ms)
+			LoadAssemblies (797ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1499ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (207ms)
+			SetupLoadedEditorAssemblies (1706ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (462ms)
+				ProcessInitializeOnLoadAttributes (1122ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.8 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2691.
+Total: 13.724500 ms (FindLiveObjects: 0.413100 ms CreateObjectMapping: 0.140500 ms MarkObjects: 12.849100 ms  DeleteObjects: 0.316400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51398.271170 seconds.
+  path: Assets/Prefabs/enemy_f_attack_01.prefab
+  artifactKey: Guid(c4fb2ffff1aad2045bc9e171ad8b34cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/enemy_f_attack_01.prefab using Guid(c4fb2ffff1aad2045bc9e171ad8b34cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc2600b2af81eea8fba672cf3a662fc') in 0.550820 seconds 
+  Import took 0.568647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.412865 seconds.
+  path: Assets/Prefabs/enemy_f_attack_01.prefab
+  artifactKey: Guid(c4fb2ffff1aad2045bc9e171ad8b34cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/enemy_f_attack_01.prefab using Guid(c4fb2ffff1aad2045bc9e171ad8b34cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d11: failed to create 2D texture id=77 width=601 height=301 mips=1 dxgifmt=28 [D3D error was 887a0005]
+d3d11: failed to create 2D texture shader resource view id=77 [D3D error was 80070057]
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+d3d11: failed to create 2D texture id=79 width=250 height=300 mips=1 dxgifmt=28 [D3D error was 887a0005]
+d3d11: failed to create 2D texture shader resource view id=79 [D3D error was 80070057]
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+D3D11: Failed to create RenderTexture (256 x 256 fmt 9 aa 1), error 0x887a0005
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:InitPreview (UnityEngine.Rect)
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/RenderTextureD3D11.cpp line 208]
+
+D3D11: Failed to create RenderTexture (256 x 256 fmt 19 aa 1), error 0x887a0005
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:InitPreview (UnityEngine.Rect)
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/RenderTextureD3D11.cpp line 208]
+
+d3d11: failed to create 2D texture id=83 width=1 height=1 mips=1 dxgifmt=28 [D3D error was 887a0005]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool)
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 939]
+
+d3d11: failed to create 2D texture shader resource view id=83 [D3D error was 80070057]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool)
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 738]
+
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool)
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 1229]
+
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Apply (bool,bool)
+UnityEngine.Texture2D:Apply ()
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 1229]
+
+d3d11: failed to create buffer (target 0x1 mode 0 size 156) [0x887A0005]
+d3d11: failed to create buffer (target 0x1 mode 0 size 520) [0x887A0005]
+d3d11: failed to create buffer (target 0x2 mode 0 size 84) [0x887A0005]
+d3d11: failed to create 2D texture id=85 width=128 height=128 mips=1 dxgifmt=28 [D3D error was 887a0005]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool,bool)
+UnityEditor.PreviewRenderUtility:EndStaticPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 939]
+
+d3d11: failed to create 2D texture shader resource view id=85 [D3D error was 80070057]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool,bool)
+UnityEditor.PreviewRenderUtility:EndStaticPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 738]
+
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool,bool)
+UnityEditor.PreviewRenderUtility:EndStaticPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 1229]
+
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Apply (bool,bool)
+UnityEngine.Texture2D:Apply ()
+UnityEditor.PreviewRenderUtility:EndStaticPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 1229]
+
+ -> (artifact id: '257579d3b12dec1df6bad51a1f501ae3') in 0.273908 seconds 
+  Import took 0.295187 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.053453 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.476 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6610ms)
+		BeginReloadAssembly (1607ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (230ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (681ms)
+		EndReloadAssembly (4598ms)
+			LoadAssemblies (1066ms)
+			RebuildTransferFunctionScriptingTraits (3ms)
+			SetupTypeCache (1686ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (151ms)
+			SetupLoadedEditorAssemblies (1525ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (485ms)
+				ProcessInitializeOnLoadAttributes (930ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2694.
+Total: 19.993200 ms (FindLiveObjects: 3.525500 ms CreateObjectMapping: 0.315800 ms MarkObjects: 15.843500 ms  DeleteObjects: 0.303900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029399 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.562 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5603ms)
+		BeginReloadAssembly (1361ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (102ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (535ms)
+		EndReloadAssembly (3941ms)
+			LoadAssemblies (700ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1434ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (173ms)
+			SetupLoadedEditorAssemblies (1297ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (389ms)
+				ProcessInitializeOnLoadAttributes (794ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (37ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
+Platform modules already initialized, skipping
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2696.
+Total: 8.396400 ms (FindLiveObjects: 0.430400 ms CreateObjectMapping: 0.237600 ms MarkObjects: 7.466400 ms  DeleteObjects: 0.257800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.039108 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.652 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6686ms)
+		BeginReloadAssembly (1335ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (108ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (672ms)
+		EndReloadAssembly (4797ms)
+			LoadAssemblies (951ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1860ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (150ms)
+			SetupLoadedEditorAssemblies (1487ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (370ms)
+				ProcessInitializeOnLoadAttributes (1003ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (48ms)
+Platform modules already initialized, skipping
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2698.
+Total: 6.774300 ms (FindLiveObjects: 0.479000 ms CreateObjectMapping: 0.144700 ms MarkObjects: 5.934500 ms  DeleteObjects: 0.212900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 313.341612 seconds.
+  path: Assets/Prefabs/パチパチ.prefab
+  artifactKey: Guid(e53c52bc5686fb14eb46c4d48571911a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/パチパチ.prefab using Guid(e53c52bc5686fb14eb46c4d48571911a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d11: failed to create 2D texture id=87 width=601 height=301 mips=1 dxgifmt=28 [D3D error was 887a0005]
+d3d11: failed to create 2D texture shader resource view id=87 [D3D error was 80070057]
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+D3D11: Failed to create RenderTexture (256 x 256 fmt 9 aa 1), error 0x887a0005
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:InitPreview (UnityEngine.Rect)
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/RenderTextureD3D11.cpp line 208]
+
+D3D11: Failed to create RenderTexture (256 x 256 fmt 19 aa 1), error 0x887a0005
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:InitPreview (UnityEngine.Rect)
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/RenderTextureD3D11.cpp line 208]
+
+d3d11: failed to create 2D texture id=91 width=1 height=1 mips=1 dxgifmt=28 [D3D error was 887a0005]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool)
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 939]
+
+d3d11: failed to create 2D texture shader resource view id=91 [D3D error was 80070057]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool)
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 738]
+
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool)
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 1229]
+
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Apply (bool,bool)
+UnityEngine.Texture2D:Apply ()
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 1229]
+
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+Failed to create DX11 vertex declaration; something wrong with vertex shader input data? (hr=887a0005)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Graphics:DrawTextureImpl (UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Rect,int,int,int,int,UnityEngine.Color,UnityEngine.Material,int)
+UnityEngine.Graphics:DrawTexture (UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Rect,int,int,int,int,UnityEngine.Material,int)
+UnityEngine.Graphics:DrawTexture (UnityEngine.Rect,UnityEngine.Texture,int,int,int,int,UnityEngine.Material,int)
+UnityEngine.Graphics:DrawTexture (UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Material,int)
+UnityEngine.Graphics:DrawTexture (UnityEngine.Rect,UnityEngine.Texture)
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/VertexDeclarationD3D11.cpp line 120]
+
+Assertion failed on expression: 'SUCCEEDED(hr)'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Graphics:DrawTextureImpl (UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Rect,int,int,int,int,UnityEngine.Color,UnityEngine.Material,int)
+UnityEngine.Graphics:DrawTexture (UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Rect,int,int,int,int,UnityEngine.Material,int)
+UnityEngine.Graphics:DrawTexture (UnityEngine.Rect,UnityEngine.Texture,int,int,int,int,UnityEngine.Material,int)
+UnityEngine.Graphics:DrawTexture (UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Material,int)
+UnityEngine.Graphics:DrawTexture (UnityEngine.Rect,UnityEngine.Texture)
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/GfxDeviceD3D11.cpp line 247]
+
+Assertion failed on expression: 'SUCCEEDED(hr)'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Graphics:DrawTextureImpl (UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Rect,int,int,int,int,UnityEngine.Color,UnityEngine.Material,int)
+UnityEngine.Graphics:DrawTexture (UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Rect,int,int,int,int,UnityEngine.Material,int)
+UnityEngine.Graphics:DrawTexture (UnityEngine.Rect,UnityEngine.Texture,int,int,int,int,UnityEngine.Material,int)
+UnityEngine.Graphics:DrawTexture (UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Material,int)
+UnityEngine.Graphics:DrawTexture (UnityEngine.Rect,UnityEngine.Texture)
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/GfxDeviceD3D11.cpp line 328]
+
+d3d11: failed to create buffer (target 0x1 mode 0 size 432) [0x887A0005]
+d3d11: failed to create buffer (target 0x1 mode 0 size 1440) [0x887A0005]
+d3d11: failed to create buffer (target 0x2 mode 0 size 204) [0x887A0005]
+Failed to create DX11 vertex declaration; something wrong with vertex shader input data? (hr=887a0005)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/VertexDeclarationD3D11.cpp line 120]
+
+D3D shader create error for vertex shader [0x887a0005]
+d3d11: failed to create 2D texture id=93 width=128 height=128 mips=1 dxgifmt=28 [D3D error was 887a0005]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool,bool)
+UnityEditor.PreviewRenderUtility:EndStaticPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 939]
+
+d3d11: failed to create 2D texture shader resource view id=93 [D3D error was 80070057]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool,bool)
+UnityEditor.PreviewRenderUtility:EndStaticPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 738]
+
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool,bool)
+UnityEditor.PreviewRenderUtility:EndStaticPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 1229]
+
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Apply (bool,bool)
+UnityEngine.Texture2D:Apply ()
+UnityEditor.PreviewRenderUtility:EndStaticPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 1229]
+
+ -> (artifact id: '755fa7bc34950d6e903a26ed22183b8a') in 0.545584 seconds 
+  Import took 0.562361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.209386 seconds.
+  path: Assets/Sounds/魔法効果音.mp3
+  artifactKey: Guid(0b208b86fe23a5a4d8e7d0a701cd3f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/魔法効果音.mp3 using Guid(0b208b86fe23a5a4d8e7d0a701cd3f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) D3D11: Failed to create RenderTexture (256 x 256 fmt 9 aa 1), error 0x887a0005
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:InitPreview (UnityEngine.Rect)
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.AudioClipInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/RenderTextureD3D11.cpp line 208]
+
+D3D11: Failed to create RenderTexture (256 x 256 fmt 19 aa 1), error 0x887a0005
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:InitPreview (UnityEngine.Rect)
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.AudioClipInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/RenderTextureD3D11.cpp line 208]
+
+d3d11: failed to create 2D texture id=97 width=1 height=1 mips=1 dxgifmt=28 [D3D error was 887a0005]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool)
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.AudioClipInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 939]
+
+d3d11: failed to create 2D texture shader resource view id=97 [D3D error was 80070057]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool)
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.AudioClipInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 738]
+
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool)
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.AudioClipInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 1229]
+
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Apply (bool,bool)
+UnityEngine.Texture2D:Apply ()
+UnityEditor.PreviewRenderUtility:BeginStaticPreview (UnityEngine.Rect)
+UnityEditor.AudioClipInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 1229]
+
+D3D shader create error for vertex shader [0x887a0005]
+Failed to create DX11 vertex declaration; something wrong with vertex shader input data? (hr=887a0005)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AudioMixerDrawUtils:Vertex (single,single)
+UnityEditor.AudioCurveRendering:DrawMinMaxFilledCurveInternal (UnityEngine.Rect,UnityEditor.AudioCurveRendering/AudioMinMaxCurveAndColorEvaluator)
+UnityEditor.AudioClipInspector:DoRenderPreview (bool,UnityEngine.AudioClip,UnityEditor.AudioImporter,UnityEngine.Rect,single)
+UnityEditor.AudioClipInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/VertexDeclarationD3D11.cpp line 120]
+
+d3d11: failed to create 2D texture id=99 width=128 height=128 mips=1 dxgifmt=28 [D3D error was 887a0005]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool,bool)
+UnityEditor.PreviewRenderUtility:EndStaticPreview ()
+UnityEditor.AudioClipInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 939]
+
+d3d11: failed to create 2D texture shader resource view id=99 [D3D error was 80070057]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool,bool)
+UnityEditor.PreviewRenderUtility:EndStaticPreview ()
+UnityEditor.AudioClipInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 738]
+
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool,bool)
+UnityEditor.PreviewRenderUtility:EndStaticPreview ()
+UnityEditor.AudioClipInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 1229]
+
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Apply (bool,bool)
+UnityEngine.Texture2D:Apply ()
+UnityEditor.PreviewRenderUtility:EndStaticPreview ()
+UnityEditor.AudioClipInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 1229]
+
+ -> (artifact id: '615d0d0ff44fb1cbcc036df084eaed88') in 0.588454 seconds 
+  Import took 0.609589 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027035 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.632 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6649ms)
+		BeginReloadAssembly (1812ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (105ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (982ms)
+		EndReloadAssembly (4110ms)
+			LoadAssemblies (1076ms)
+			RebuildTransferFunctionScriptingTraits (11ms)
+			SetupTypeCache (1569ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (139ms)
+			SetupLoadedEditorAssemblies (1216ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (296ms)
+				ProcessInitializeOnLoadAttributes (829ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+D3D shader create error for vertex shader [0x887a0005]
+D3D shader create error for pixel shader [0x887a0005]
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.8 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2703.
+Total: 14.855500 ms (FindLiveObjects: 0.685200 ms CreateObjectMapping: 0.172300 ms MarkObjects: 13.343800 ms  DeleteObjects: 0.650600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

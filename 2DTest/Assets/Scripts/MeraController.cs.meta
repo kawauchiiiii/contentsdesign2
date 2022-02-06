@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 6b3961e4293b7f745888513718f4267c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - EleEnemy: {fileID: 5284552967079515153, guid: 649bb21b1fe9d0544b66e063e8082bf2, type: 3}
+  - merameraeffect: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

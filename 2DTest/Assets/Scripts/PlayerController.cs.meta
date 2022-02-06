@@ -1,0 +1,38 @@
+fileFormatVersion: 2
+guid: 572c0081e067a6f49aed6dd63b169d40
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rb: {instanceID: 0}
+  - animator: {instanceID: 0}
+  - hpimage: {instanceID: 0}
+  - iceimage: {instanceID: 0}
+  - eleimage: {instanceID: 0}
+  - flaimage: {instanceID: 0}
+  - inputField: {instanceID: 0}
+  - gorogoro: {instanceID: 0}
+  - pakipaki: {instanceID: 0}
+  - meramera: {instanceID: 0}
+  - gorogoroeffect: {instanceID: 0}
+  - pakipakieffect: {instanceID: 0}
+  - merameraeffect: {instanceID: 0}
+  - post_ice: {instanceID: 0}
+  - post_ele: {instanceID: 0}
+  - post_fla: {instanceID: 0}
+  - Player: {instanceID: 0}
+  - runsound: {instanceID: 0}
+  - jumpsound: {fileID: 8300000, guid: 4735b746ed7339445aad768130e0b12d, type: 3}
+  - magicsound: {instanceID: 0}
+  - icesound: {fileID: 8300000, guid: ad3dc834751f9ee4bae9bb64e3592c4b, type: 3}
+  - elesound: {fileID: 8300000, guid: b7690c890894f2544b4fd542dd5c3429, type: 3}
+  - flasound: {fileID: 8300000, guid: d362397e134411942aaee4255c6e1ac0, type: 3}
+  - icemagicsound: {instanceID: 0}
+  - elemagicsound: {instanceID: 0}
+  - flamagicsound: {instanceID: 0}
+  - AnimationImage: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
